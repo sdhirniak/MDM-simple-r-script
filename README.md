@@ -7,15 +7,25 @@ This is a demo R script.
 
 ## Part 1: Developing Locally (on your computer)
 
+### Fork The Repository to your GitHub
+
+1. Click on the "fork" icon. This should prompt you to make a copy of this repository on your GitHub
+
 ### Cloning The Repository (making a local copy on your computer)
 
-1. Open your command line terminal and navigate to your Github folder
+0. Open your command line terminal and create a Github folder in your root directory. This will make it easier to come to this later.
+  
+	```
+	mkdir ~/Github/
+	```
+
+1. Use your command line terminal to navigate to your Github folder. 
   
 	```
 	cd ~/Github/
 	```
 
-2. Clone the repository using the SSH link given to you in GitHub, it should look something like this:
+2. Clone the repository using the SSH link given to you in your GitHub, it should look something like this:
 
 	```
 	git clone git@github.com:XXXXX/simple-rscript.git
@@ -42,7 +52,7 @@ This is a demo R script.
 2. Put the following code in `sample-script.R`. 
 
 	```{r}
- 
+ 	lapply(data, summary)
 	```
 
 3. Commit this page
